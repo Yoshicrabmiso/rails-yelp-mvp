@@ -4,6 +4,9 @@
 #
 # Example:
 #
-#   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
-#     MovieGenre.find_or_create_by!(name: genre_name)
-#   end
+Restaurant.destroy_all
+  Restaurant.create({ name: "Olive Garden", category: "italian", address: "itally 1102"})
+  Restaurant.create({ name: "Croissant", category: "french", address: "paris1101"})
+  Restaurant.create({ name: "Yoshinoya", category: "japanese", address: "meguro2331"})
+  Restaurant.create({ name: "Sushiro", category: "japanese", address: "roppongi1121"})
+  Restaurant.create({ name: "Saizeria", category: "Japanese", address: "shinjuku0019"})
